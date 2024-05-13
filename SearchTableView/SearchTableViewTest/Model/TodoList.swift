@@ -4,11 +4,8 @@
     Date : 2024.5. 10
     Author : Ilhera
     Updates :
-        2024.05.10  by pdg :
+        2024.05.12  by J.Park :
             - 주석 생성
-        2024.05.11 by pdg :
-            - delete 시 필요한 id 가 없는 것을 확인..
-            - 모델에 id 추가!!
     Detail : -
     Bundle : com.swiftlec.SQLiteTodoAdvanced
 
