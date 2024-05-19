@@ -1,9 +1,17 @@
-//
-//  ViewController.swift
-//  SearchTableViewTest
-//
-//  Created by ji-hwan park on 5/12/24.
-//
+// MARK: Description
+/*
+    Description : Model  TodoList)
+    Date : 2024.5. 10
+    Author : Ilhera
+    Updates :
+        2024.05.12  by J.Park :
+            - insert 기능구현
+            - 검색기능 구현
+            : tfSearch에 있는 값을 검색버튼을 누를시에 TodoList의 searchQueryDB 함수를 호출하여 검색 후 searchAction으로 테이블에 값을 띄움
+    Detail : -
+    Bundle : com.swiftlec.SQLiteTodoAdvanced
+
+*/
 
 import UIKit
 
@@ -25,7 +33,6 @@ class ViewController: UIViewController {
         
         
         reloadAction()
-        print("검색 테스트")
     }
     func reloadAction() {
         let todoList = TodoListDB()
@@ -39,7 +46,6 @@ class ViewController: UIViewController {
         let todoList = TodoListDB()
         dataArray.removeAll()
         todoList.delegate = self
-        print("searchAction실행")
         todoList.searchQueryDB(searchText: searchText)
         tvListView.reloadData()
     }
@@ -109,6 +115,7 @@ class ViewController: UIViewController {
     }
     
 }
+//tableview를 사용하기 위한 extension
 extension ViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArray.count

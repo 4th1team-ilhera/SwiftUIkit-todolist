@@ -12,6 +12,8 @@
             - insert 쿼리 완성
             - delete 쿼리 완성
             - update 쿼리 완성
+         2024.05.13 by pdg :
+            - search 쿼리 완성(검색기능)
  
             
     Detail :
@@ -165,9 +167,6 @@ class TodoListDB{
     
     // 검색
     func searchQueryDB(searchText: String) {
-        print("---------------------")
-        print(searchText)
-        print("---------------------")
         var stmt: OpaquePointer?
         let queryString = "SELECT * FROM todoList WHERE text LIKE '%\(searchText)%' ORDER BY insertdate"
         if sqlite3_prepare(db, queryString, -1, &stmt, nil) != SQLITE_OK {
