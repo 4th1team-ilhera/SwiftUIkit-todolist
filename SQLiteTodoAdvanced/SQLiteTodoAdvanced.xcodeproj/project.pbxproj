@@ -16,6 +16,7 @@
 		54FFE5122BEE091B008445BE /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFE5112BEE091B008445BE /* TodoList.swift */; };
 		54FFE5142BEE0932008445BE /* TodoListDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFE5132BEE0932008445BE /* TodoListDB.swift */; };
 		FEA6A2A22BEF5B3E00E2F834 /* SearchTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6A2A12BEF5B3E00E2F834 /* SearchTodoViewController.swift */; };
+		FEB9E7512BF9E4BD002B7B6E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9E7502BF9E4BD002B7B6E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		54FFE5112BEE091B008445BE /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		54FFE5132BEE0932008445BE /* TodoListDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListDB.swift; sourceTree = "<group>"; };
 		FEA6A2A12BEF5B3E00E2F834 /* SearchTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTodoViewController.swift; sourceTree = "<group>"; };
+		FEB9E7502BF9E4BD002B7B6E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				54FFE50F2BEE06EA008445BE /* TableViewController.swift */,
 				FEA6A2A12BEF5B3E00E2F834 /* SearchTodoViewController.swift */,
+				FEB9E7502BF9E4BD002B7B6E /* MainViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB9E7512BF9E4BD002B7B6E /* MainViewController.swift in Sources */,
 				54FFE4F92BEE05D8008445BE /* AppDelegate.swift in Sources */,
 				FEA6A2A22BEF5B3E00E2F834 /* SearchTodoViewController.swift in Sources */,
 				54FFE5102BEE06EA008445BE /* TableViewController.swift in Sources */,
